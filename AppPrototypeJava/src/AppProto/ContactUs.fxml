@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppProto.ContactUsController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" styleClass="homePage1">
+         <children>
+            <AnchorPane layoutX="271.0" prefHeight="800.0" prefWidth="1011.0" styleClass="homePage2">
+               <children>
+                  <Text layoutX="400.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Contact Us">
+                     <font>
+                        <Font name="Arial Bold" size="40.0" />
+                     </font>
+                  </Text>
+                  <AnchorPane layoutX="106.0" layoutY="150.0" prefHeight="500.0" prefWidth="800.0" styleClass="kotakTemplate">
+                     <children>
+                        <AnchorPane layoutX="542.0" prefHeight="500.0" prefWidth="258.0" style="-fx-background-radius: 0 20px 20px 0; -fx-background-color: #806044;">
+                           <children>
+                              <Text fill="WHITE" layoutX="25.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our Contact Information">
+                                 <font>
+                                    <Font name="Arial Bold" size="18.0" />
+                                 </font>
+                              </Text>
+                              <Label layoutX="25.0" layoutY="97.0" text="+12 3456 7890" textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial" size="15.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@ImageSRC/phone-call.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Label>
+                              <Label layoutX="25.0" layoutY="153.0" text="Joto12@gmail.com" textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial" size="15.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@ImageSRC/envelope.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Label>
+                              <Label layoutX="24.0" layoutY="205.0" text="www.Jogjatour.com" textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial" size="15.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@ImageSRC/globe.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Separator layoutX="539.0" orientation="VERTICAL" prefHeight="500.0" />
+                        <Text fill="WHITE" layoutX="28.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Send Us Message">
+                           <font>
+                              <Font name="Arial Bold" size="25.0" />
+                           </font>
+                        </Text>
+                        <TextField fx:id="fullName" layoutX="28.0" layoutY="108.0" prefHeight="25.0" prefWidth="393.0" styleClass="userNameBar" />
+                        <Text fill="WHITE" layoutX="28.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Full Name:">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="28.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-Mail:">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <TextField fx:id="email" layoutX="28.0" layoutY="180.0" prefHeight="25.0" prefWidth="393.0" styleClass="userNameBar" />
+                        <Text fill="WHITE" layoutX="28.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Message:">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <TextField fx:id="message" layoutX="28.0" layoutY="265.0" prefHeight="168.0" prefWidth="393.0" styleClass="messageBox" />
+                        <Button fx:id="sendButton" layoutX="172.0" layoutY="455.0" mnemonicParsing="false" styleClass="moreButton" text="Send Message">
+                           <font>
+                              <Font name="Arial" size="17.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <VBox prefHeight="800.0" prefWidth="272.0" styleClass="sideBar">
+         <children>
+            <AnchorPane prefHeight="55.0" prefWidth="272.0">
+               <children>
+                  <Text fill="WHITE" layoutX="84.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JoTo">
+                     <font>
+                        <Font name="Arial Black" size="20.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="39.0" fitWidth="40.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/LogoJT.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Hyperlink fx:id="linkHome" onAction="#Home" text="Back To Home" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/home.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets left="40.0" top="50.0" />
+               </VBox.margin>
+            </Hyperlink>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

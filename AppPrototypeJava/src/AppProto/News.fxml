@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppProto.HasilController">
+   <children>
+      <VBox prefHeight="800.0" prefWidth="272.0" styleClass="sideBar">
+         <children>
+            <AnchorPane prefHeight="55.0" prefWidth="272.0">
+               <children>
+                  <Text fill="WHITE" layoutX="84.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JoTo">
+                     <font>
+                        <Font name="Arial Black" size="20.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="39.0" fitWidth="40.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/LogoJT.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Hyperlink fx:id="linkHome" onAction="#Home" text="Back To Home" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/home.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets left="40.0" top="50.0" />
+               </VBox.margin>
+            </Hyperlink>
+         </children>
+      </VBox>
+      <ScrollPane layoutX="272.0" prefHeight="800.0" prefWidth="1010.0">
+         <content>
+            <AnchorPane prefHeight="1473.0" prefWidth="995.0" styleClass="homePage1">
+               <children>
+                  <AnchorPane prefHeight="1553.0" prefWidth="995.0" styleClass="homePage2">
+                     <children>
+                        <AnchorPane prefHeight="541.0" prefWidth="995.0" styleClass="nimg3">
+                           <children>
+                              <AnchorPane prefHeight="541.0" prefWidth="995.0" styleClass="bgImage1">
+                                 <children>
+                                    <Text fill="WHITE" layoutX="46.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5 Pantai Jogja yang wajib dikunjugi bagi penikmat senja" wrappingWidth="745.3505859375">
+                                       <font>
+                                          <Font name="Arial Bold" size="46.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="46.0" layoutY="495.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diperbarui: 12/72024">
+                                       <font>
+                                          <Font name="Arial Italic" size="16.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                        <Text layoutX="46.0" layoutY="575.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Jogja, selain dikenal dengan kekayaan budaya dan sejarahnya, juga menawarkan keindahan alam yang memukau. Salah satu daya tariknya adalah pantai-pantai yang menakjubkan, terutama saat senja tiba. Berikut adalah lima pantai di Jogja yang sangat cocok untuk menikmati keindahan matahari terbenam." wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="712.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Parangtritis adalah pantai paling terkenal di Jogja. Terletak sekitar 27 km dari pusat kota, pantai ini menawarkan pemandangan matahari terbenam yang memukau. Pasir hitam yang khas dan ombak besar menambah keindahan senja di pantai ini. Aktivitas lain yang bisa dinikmati adalah naik delman atau ATV menyusuri pantai sambil menunggu matahari terbenam." wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="686.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="1. Pantai Parangtritis">
+                           <font>
+                              <Font name="Arial Bold" size="21.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="841.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="2. Pantai Indrayanti">
+                           <font>
+                              <Font name="Arial Bold" size="21.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="867.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Pantai Indrayanti, yang juga dikenal sebagai Pantai Pulang Syawal, terkenal dengan pasir putihnya yang lembut dan air laut yang jernih. Terletak di kawasan Gunungkidul, pantai ini menawarkan suasana yang lebih tenang dibandingkan pantai lainnya. Menikmati senja di Pantai Indrayanti bisa menjadi pengalaman yang sangat menenangkan, diiringi deburan ombak yang lembut dan angin sepoi-sepoi." wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="1002.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="3. Pantai Glagah">
+                           <font>
+                              <Font name="Arial Bold" size="21.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="1028.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Pantai Glagah terletak di Kulon Progo, sekitar 40 km dari pusat kota Jogja. Pantai ini memiliki laguna yang luas dan pemecah ombak yang ikonik, menjadikannya tempat yang unik untuk menikmati senja. Warna langit yang berubah dari biru menjadi oranye keemasan, dipadukan dengan pemandangan laguna, menciptakan panorama yang memukau dan sulit untuk dilupakan." wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="1158.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="4. Pantai Drini">
+                           <font>
+                              <Font name="Arial Bold" size="21.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="1184.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Pantai Drini adalah salah satu pantai yang paling eksotis di Gunungkidul. Terdapat pulau kecil yang membagi pantai ini menjadi dua bagian, menciptakan pemandangan yang unik dan mempesona. Senja di Pantai Drini memberikan nuansa magis, dengan siluet pulau kecil di tengah laut dan langit yang berwarna-warni. Tempat ini juga cocok untuk berfoto dan menikmati keindahan alam yang masih asri." wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="1305.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="5. Pantai Kukup">
+                           <font>
+                              <Font name="Arial Bold" size="21.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="1331.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Pantai Kukup terletak tidak jauh dari Pantai Baron di Gunungkidul. Pantai ini dikenal dengan batu karangnya yang indah dan air laut yang jernih. Di sore hari, saat matahari mulai terbenam, Pantai Kukup menawarkan pemandangan yang luar biasa. Suasana tenang dan angin laut yang segar menambah kenyamanan saat menikmati senja di pantai ini." wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="1439.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Menikmati senja di pantai-pantai Jogja adalah pengalaman yang tak terlupakan. Setiap pantai menawarkan keindahan dan pesonanya masing-masing, menciptakan momen magis yang sempurna untuk diabadikan. Jika Anda berkunjung ke Jogja, jangan lewatkan kesempatan untuk menyaksikan keindahan senja di salah satu pantai ini." wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppProto.HelpCenterController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" styleClass="homePage1">
+         <children>
+            <AnchorPane layoutX="271.0" prefHeight="800.0" prefWidth="1009.0" styleClass="homePage2">
+               <children>
+                  <Text layoutX="409.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Help Center">
+                     <font>
+                        <Font name="Arial Bold" size="40.0" />
+                     </font>
+                  </Text>
+                  <Accordion layoutX="103.0" layoutY="91.0" prefHeight="658.0" prefWidth="836.0">
+                    <panes>
+                        <TitledPane animated="false" text="Bagimana Cara Mengubah  Data Pribadi">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" styleClass="homePage">
+                                 <children>
+                                    <Text fill="WHITE" layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Ketika anda ingin mengubah data pribadi anda, pada halaman utama anda tekan tombol profile, dan tekan tombol edit profile, jika sudah selesai tekan save, maka otomatis data anda akan dirubah oleh sistem." wrappingWidth="578.17578125">
+                                       <font>
+                                          <Font name="Arial" size="14.0" />
+                                       </font>
+                                    </Text>
+                                    <ImageView fitHeight="228.0" fitWidth="420.0" layoutX="14.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@ImageSRC/GHomepage.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="228.0" fitWidth="420.0" layoutX="14.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@ImageSRC/GProfile.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="417.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Tekan tombol profile yang ada di sidebar." wrappingWidth="218.17578125">
+                                       <font>
+                                          <Font name="Arial" size="14.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="417.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Tekan tombol edit profile untuk mengubah data, tekan tombol save edit untuk menyimpan data." wrappingWidth="308.17578125">
+                                       <font>
+                                          <Font name="Arial" size="14.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </AnchorPane>
+                          </content>
+                        </TitledPane>
+                      <TitledPane animated="false" text="Bagimana Cara Melakukan Pembayaran">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="homePage">
+                                 <children>
+                                    <Text fill="WHITE" layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Untuk melakukan pembayaran anda cukup mengisi data diri dan data kartu atm anda, serta jasa apa yang ingin anda pesan" wrappingWidth="578.17578125">
+                                       <font>
+                                          <Font name="Arial" size="14.0" />
+                                       </font>
+                                    </Text>
+                                    <ImageView fitHeight="228.0" fitWidth="420.0" layoutX="14.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@ImageSRC/GPayment.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </TitledPane>
+                      <TitledPane animated="false" text="Bagaimana Cara Membatalkan Pesanan">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="818.0" styleClass="homePage">
+                                 <children>
+                                    <Text fill="WHITE" layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Untuk membatalkan pembayaran anda cukup menekan tombol back yang berada di pojok kiri atas" wrappingWidth="578.17578125">
+                                       <font>
+                                          <Font name="Arial" size="14.0" />
+                                       </font>
+                                    </Text>
+                                    <ImageView fitHeight="228.0" fitWidth="420.0" layoutX="14.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@ImageSRC/GPayment.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </TitledPane>
+                    </panes>
+                  </Accordion>
+               </children></AnchorPane>
+            <VBox prefHeight="800.0" prefWidth="272.0" styleClass="sideBar">
+               <children>
+                  <AnchorPane prefHeight="55.0" prefWidth="272.0">
+                     <children>
+                        <Text fill="WHITE" layoutX="84.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JoTo">
+                           <font>
+                              <Font name="Arial Black" size="20.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="39.0" fitWidth="40.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@ImageSRC/LogoJT.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Hyperlink fx:id="linkHome" onAction="#Home" text="Back To Home" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@ImageSRC/home.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets left="40.0" top="50.0" />
+                     </VBox.margin>
+                  </Hyperlink>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.MotionBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane focusTraversable="false" hbarPolicy="ALWAYS" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" pannable="true" prefHeight="800.0" prefWidth="1280.0" vbarPolicy="ALWAYS" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppProto.PageController">
+   <content>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2678.0" prefWidth="1280.0">
+         <children>
+            <ImageView fitHeight="800.0" fitWidth="1280.0" layoutX="-15.0" layoutY="-1.0" opacity="0.42" pickOnBounds="true">
+               <image>
+                  <Image url="@ImageSRC/bukitKlangon3.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="1836.0" layoutX="-7.0" layoutY="692.0" stroke="BLACK" strokeType="INSIDE" width="1380.0">
+               <effect>
+                  <MotionBlur />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <fill>
+                  <LinearGradient endX="0.4218009478672987" endY="0.8957345971563981" startX="0.42654028436018954">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.7836257219314575" green="0.8128654956817627" blue="0.8421052694320679" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.5526315569877625" green="0.5054702758789062" blue="0.35051169991493225" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Rectangle>
+            <ImageView fitHeight="1280.0" fitWidth="1280.0" layoutX="-11.0" layoutY="696.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ImageSRC/bg.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="1280.0" fitWidth="1280.0" layoutX="-11.0" layoutY="1338.0" pickOnBounds="true">
+               <image>
+                  <Image url="@ImageSRC/bg.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="1280.0" fitWidth="1280.0" layoutX="-11.0" layoutY="1980.0" pickOnBounds="true">
+               <image>
+                  <Image url="@ImageSRC/bg.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="1280.0" fitWidth="1280.0" layoutX="-11.0" layoutY="2622.0" pickOnBounds="true">
+               <image>
+                  <Image url="@ImageSRC/bg.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#122e1184" height="2108.0" layoutX="-4.0" layoutY="695.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1280.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dddad3d6" height="1898.0" layoutX="48.0" layoutY="694.0" stroke="TRANSPARENT" strokeType="INSIDE" width="457.0" />
+            <ImageView fitHeight="1933.0" fitWidth="745.0" layoutX="516.0" layoutY="267.0" opacity="0.88" pickOnBounds="true">
+               <image>
+                  <Image url="@ImageSRC/white.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="273.0" fitWidth="401.0" layoutX="75.0" layoutY="277.0" pickOnBounds="true">
+               <image>
+                  <Image url="@ImageSRC/bukitKlangonlatar.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="248.0" fitWidth="402.0" layoutX="75.0" layoutY="572.0" pickOnBounds="true">
+               <image>
+                  <Image url="@ImageSRC/bukitKlango2.jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" focusTraversable="false" layoutX="301.0" layoutY="108.0" prefHeight="130.0" prefWidth="650.0" text="Bukit Klangon" textFill="#252c40" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="67.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" contentDisplay="BOTTOM" focusTraversable="false" layoutX="537.0" layoutY="290.0" prefHeight="452.0" prefWidth="717.0" text="Bukit Klangon adalah destinasi wisata alam yang terletak di lereng Gunung Merapi, Yogyakarta. Tempat ini terkenal dengan pemandangan menakjubkan Gunung Merapi dari jarak dekat, spot foto yang indah, dan trek sepeda gunung yang menantang. Udara sejuk dan suasana alami membuat Bukit Klangon menjadi tempat favorit untuk bersantai dan menikmati keindahan alam." textOverrun="CLIP" wrapText="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfaf8d6" height="261.0" layoutX="54.0" layoutY="1761.0" stroke="TRANSPARENT" strokeLineCap="ROUND" strokeLineJoin="ROUND" width="443.0" />
+            <ImageView fitHeight="444.0" fitWidth="931.0" layoutX="613.0" layoutY="760.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ImageSRC/bukitKlangonMaps.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfaf8d6" height="262.0" layoutX="57.0" layoutY="1150.0" stroke="TRANSPARENT" strokeLineCap="ROUND" strokeLineJoin="ROUND" width="441.0" />
+            <Line endX="612.6666259765625" layoutX="654.0" layoutY="1322.0" startX="-100.0" strokeWidth="3.0" />
+            <ImageView fitHeight="248.0" fitWidth="405.0" layoutX="75.0" layoutY="852.0" pickOnBounds="true">
+               <image>
+                  <Image url="@ImageSRC/bukitKlangon1.jpg" />
+               </image>
+            </ImageView>
+            <Circle fill="DODGERBLUE" layoutX="90.0" layoutY="1181.0" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfaf8d6" height="34.0" layoutX="97.0" layoutY="1363.0" stroke="TRANSPARENT" strokeLineCap="ROUND" strokeLineJoin="ROUND" width="386.0" />
+            <ImageView fitHeight="24.0" fitWidth="27.0" layoutX="123.0" layoutY="1368.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ImageSRC/icon%20foto.png" />
+               </image>
+            </ImageView>
+            <Button focusTraversable="false" layoutX="143.0" layoutY="1365.0" mnemonicParsing="false" style="-fx-background-color: transparant;" text="Post your photos" textFill="#0165e8">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Circle fill="DODGERBLUE" layoutX="87.0" layoutY="1804.0" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfaf8d6" height="241.0" layoutX="54.0" layoutY="2036.0" stroke="TRANSPARENT" strokeLineCap="ROUND" strokeLineJoin="ROUND" width="441.0" />
+            <Circle fill="DODGERBLUE" layoutX="87.0" layoutY="2079.0" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfaf8d6" height="271.0" layoutX="54.0" layoutY="2289.0" stroke="TRANSPARENT" strokeLineCap="ROUND" strokeLineJoin="ROUND" width="442.0" />
+            <Circle fill="DODGERBLUE" layoutX="87.0" layoutY="2332.0" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label focusTraversable="false" layoutX="127.0" layoutY="2307.0" prefHeight="34.0" prefWidth="160.0" text="MerapiUncover">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label focusTraversable="false" layoutX="132.0" layoutY="2338.0" prefHeight="26.0" prefWidth="203.0" text="1 Month ago" textFill="#686868">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label focusTraversable="false" layoutX="123.0" layoutY="2051.0" prefHeight="34.0" prefWidth="160.0" text="AwanBerpetualang">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label focusTraversable="false" layoutX="128.0" layoutY="2082.0" prefHeight="26.0" prefWidth="250.0" text="2 Weeks ago" textFill="#686868">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label focusTraversable="false" layoutX="124.0" layoutY="1781.0" prefHeight="34.0" prefWidth="160.0" text="MountainTrekker">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label focusTraversable="false" layoutX="129.0" layoutY="1812.0" prefHeight="26.0" prefWidth="259.0" text="6 Days ago" textFill="#686868">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label focusTraversable="false" layoutX="127.0" layoutY="1164.0" prefHeight="34.0" prefWidth="160.0" text="USER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfaf8d6" height="150.0" layoutX="98.0" layoutY="1209.0" stroke="TRANSPARENT" strokeLineCap="ROUND" strokeLineJoin="ROUND" width="383.0" />
+            <TextField fx:id="ReviewTextField" focusTraversable="false" layoutX="96.0" layoutY="1210.0" prefHeight="147.0" prefWidth="389.0" />
+            <Button focusTraversable="false" layoutX="431.0" layoutY="1321.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="53.0" style="-fx-background-color: transparant;" text="Post" textFill="#56869e">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfaf8d6" height="170.0" layoutX="98.0" layoutY="1839.0" stroke="TRANSPARENT" strokeLineCap="ROUND" strokeLineJoin="ROUND" width="384.0" />
+            <Label alignment="TOP_LEFT" ellipsisString="" focusTraversable="false" layoutX="113.0" layoutY="1843.0" prefHeight="165.0" prefWidth="363.0" text="Tempat ini memiliki trek yang bagus untuk trekking. Jalurnya menantang namun pemandangannya sepadan dengan usaha" wrapText="true">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfaf8d6" height="150.0" layoutX="98.0" layoutY="2111.0" stroke="TRANSPARENT" strokeLineCap="ROUND" strokeLineJoin="ROUND" width="383.0" />
+            <Label alignment="TOP_LEFT" ellipsisString="" focusTraversable="false" layoutX="113.0" layoutY="2115.0" prefHeight="148.0" prefWidth="363.0" text="Bukit Klangon memiliki banyak spot foto menarik dengan latar belakang Gunung Merapi. Setiap sudutnya sangat Instagrammable" wrapText="true">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfaf8d6" height="168.0" layoutX="98.0" layoutY="2372.0" stroke="TRANSPARENT" strokeLineCap="ROUND" strokeLineJoin="ROUND" width="384.0" />
+            <Label alignment="TOP_LEFT" ellipsisString="" focusTraversable="false" layoutX="113.0" layoutY="2376.0" prefHeight="163.0" prefWidth="363.0" text="Bukit Klangon adalah tempat favorit para pesepeda gunung. Trek sepeda di sini cukup menantang dan menyenangkan" wrapText="true">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" focusTraversable="false" layoutX="726.0" layoutY="1324.0" prefHeight="34.0" prefWidth="344.0" text="Our trusted agents">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" ellipsisString="" focusTraversable="false" layoutX="607.0" layoutY="1443.0" prefHeight="194.0" prefWidth="263.0" text="Menggali Pesona Jogja, Menyatu dengan Budaya Menyusuri Keindahan Jogja Bersama Kami Setiap Langkah, Cerita di Jogja" wrapText="true">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="45.0" fitWidth="44.0" layoutX="562.0" layoutY="1598.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ImageSRC/WA.png" />
+               </image>
+            </ImageView>
+            <Label focusTraversable="false" layoutX="612.0" layoutY="1620.0" text="+62 813-2345-6789" textFill="#4a9cda">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label focusTraversable="false" layoutX="611.0" layoutY="1597.0" text="+62 812-1234-5678" textFill="#4a9cda">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button focusTraversable="false" layoutX="52.0" layoutY="50.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="41.0" style="-fx-background-color: transparent;" />
+            <Button fx:id="klangonLoveUnfill" focusTraversable="false" layoutX="937.0" layoutY="1165.0" mnemonicParsing="false" onAction="#toggleKlangonWishlist" style="-fx-background-color: transparant;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="klangonLoveFill" focusTraversable="false" layoutX="1155.0" layoutY="40.0" mnemonicParsing="false" onAction="#toggleKlangonWishlist" prefHeight="66.0" prefWidth="66.0" style="-fx-background-color: transparant;">
+               <graphic>
+                  <ImageView fitHeight="66.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/heart%20filled%20(2).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button focusTraversable="false" layoutX="1155.0" layoutY="114.0" mnemonicParsing="false" style="-fx-background-color: transparant;" />
+            <ImageView fitHeight="34.0" fitWidth="54.0" layoutX="537.0" layoutY="649.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ImageSRC/clock-three.png" />
+               </image>
+            </ImageView>
+            <Label focusTraversable="false" layoutX="578.0" layoutY="646.0" text="06.00-17.00">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="771.0" layoutY="649.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ImageSRC/marker.png" />
+               </image>
+            </ImageView>
+            <Label focusTraversable="false" layoutX="818.0" layoutY="616.0" prefHeight="85.0" prefWidth="423.0" text="Kalitengah Lor, Glagaharjo, Cangkringan, Sleman Regency, Special Region of Yogyakarta 55583" wrapText="true">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Hyperlink fx:id="linkPProfileAgen" alignment="BOTTOM_CENTER" focusTraversable="false" layoutX="546.0" layoutY="1390.0" onAction="#GotoProfileAgen" text="  Eksplor Jogja">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="56.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/ProfilAgen1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Hyperlink>
+            <ImageView fitHeight="73.0" fitWidth="76.0" layoutX="546.0" layoutY="1646.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ImageSRC/logoIG.png" />
+               </image>
+            </ImageView>
+            <Label focusTraversable="false" layoutX="615.0" layoutY="1670.0" text="\@Eksplor_jogja" textFill="#4a9cda">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" ellipsisString="" focusTraversable="false" layoutX="945.0" layoutY="1443.0" prefHeight="177.0" prefWidth="292.0" text="Discover the Charm of Jogja, and Create Magical Memories Where Joyful Moments and Cultural Wonders Await, One Journey at a Time. With Us, Your Family is Our Famly" wrapText="true">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Hyperlink alignment="BOTTOM_CENTER" focusTraversable="false" layoutX="888.0" layoutY="1390.0" text="  Jogja Family Wanderlust">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="56.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/ProfilAgen2.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Hyperlink>
+            <ImageView fitHeight="45.0" fitWidth="44.0" layoutX="912.0" layoutY="1598.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ImageSRC/WA.png" />
+               </image>
+            </ImageView>
+            <Label focusTraversable="false" layoutX="962.0" layoutY="1620.0" text="+62 815-4567-8901" textFill="#4a9cda">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label focusTraversable="false" layoutX="961.0" layoutY="1597.0" text="+62 811-3456-7890" textFill="#4a9cda">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="73.0" fitWidth="76.0" layoutX="896.0" layoutY="1646.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ImageSRC/logoIG.png" />
+               </image>
+            </ImageView>
+            <Label focusTraversable="false" layoutX="965.0" layoutY="1670.0" text="\@JogjaFamilyWanderlust" textFill="#4a9cda">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" ellipsisString="" focusTraversable="false" layoutX="609.0" layoutY="1807.0" prefHeight="194.0" prefWidth="263.0" text="Menginap di Jogja Nyaman Stay, Rasakan Kombinasi Sempurna Antara Kenyamanan Modern dan Pesona Tradisional Jogja di Setiap Penginapan Kami" wrapText="true">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="45.0" fitWidth="44.0" layoutX="564.0" layoutY="1976.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ImageSRC/WA.png" />
+               </image>
+            </ImageView>
+            <Label focusTraversable="false" layoutX="614.0" layoutY="1998.0" text="+62 819-6789-0123" textFill="#4a9cda">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label focusTraversable="false" layoutX="613.0" layoutY="1975.0" text="+62 817-5678-9012" textFill="#4a9cda">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Hyperlink alignment="BOTTOM_CENTER" focusTraversable="false" layoutX="548.0" layoutY="1754.0" text="  Jogja Nyaman Stay">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="56.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/ProfilAgen3.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Hyperlink>
+            <ImageView fitHeight="73.0" fitWidth="76.0" layoutX="548.0" layoutY="2024.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ImageSRC/logoIG.png" />
+               </image>
+            </ImageView>
+            <Label focusTraversable="false" layoutX="617.0" layoutY="2048.0" text="\@Jogja.Nyaman.Stay" textFill="#4a9cda">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" ellipsisString="" focusTraversable="false" layoutX="945.0" layoutY="1807.0" prefHeight="194.0" prefWidth="263.0" text="Selamat datang di Jogja, kami disini menyediakan berbagai kendaraan untuk kalian yang mau liburan, acara, dan sebagainya untuk mempermudah kalian selama di Jogja" wrapText="true">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="45.0" fitWidth="44.0" layoutX="912.0" layoutY="1976.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ImageSRC/WA.png" />
+               </image>
+            </ImageView>
+            <Label focusTraversable="false" layoutX="961.0" layoutY="1998.0" text="+62 877-7765-8900" textFill="#4a9cda">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label focusTraversable="false" layoutX="961.0" layoutY="1975.0" text="+62-423-4234-5235" textFill="#4a9cda">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Hyperlink alignment="BOTTOM_CENTER" focusTraversable="false" layoutX="888.0" layoutY="1754.0" text="  Tara Rent Car">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="56.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/ProfileAgen4.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Hyperlink>
+            <ImageView fitHeight="73.0" fitWidth="76.0" layoutX="896.0" layoutY="2024.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ImageSRC/logoIG.png" />
+               </image>
+            </ImageView>
+            <Label focusTraversable="false" layoutX="965.0" layoutY="2048.0" text="\@rentalmobiljogja_tara" textFill="#4a9cda">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfaf8d6" height="261.0" layoutX="56.0" layoutY="1485.0" stroke="TRANSPARENT" strokeLineCap="ROUND" strokeLineJoin="ROUND" width="443.0" />
+            <Circle fill="DODGERBLUE" layoutX="89.0" layoutY="1528.0" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label focusTraversable="false" layoutX="126.0" layoutY="1505.0" prefHeight="34.0" prefWidth="160.0" text="USER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label focusTraversable="false" layoutX="131.0" layoutY="1536.0" prefHeight="26.0" prefWidth="259.0" text="Just Now" textFill="#686868">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfaf8d6" height="170.0" layoutX="100.0" layoutY="1563.0" stroke="TRANSPARENT" strokeLineCap="ROUND" strokeLineJoin="ROUND" width="384.0" />
+            <Label alignment="TOP_LEFT" ellipsisString="" focusTraversable="false" layoutX="115.0" layoutY="1567.0" prefHeight="165.0" prefWidth="363.0" wrapText="true">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Hyperlink fx:id="linkHome" focusTraversable="false" layoutX="47.0" layoutY="50.0" onAction="#Home" text="Back To Homepage" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/home.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Hyperlink>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

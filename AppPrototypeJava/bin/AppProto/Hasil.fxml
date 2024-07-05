@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppProto.HasilController">
+   <children>
+      <AnchorPane layoutX="205.0" prefHeight="801.0" prefWidth="1077.0" styleClass="homePage">
+         <children>
+            <TextField fx:id="searchField" layoutX="234.0" layoutY="32.0" onAction="#handleSearchAction" prefHeight="35.0" prefWidth="610.0" promptText="Search Your Destination" styleClass="searchBar">
+               <contextMenu>
+                  <ContextMenu fx:id="searchSuggest" onAction="#handleSearchAction">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                    </items>
+                  </ContextMenu>
+               </contextMenu></TextField>
+            <Text fill="#806044" layoutX="40.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Berikut Adalah Hasil Pencarian Anda:">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Text>
+            <AnchorPane layoutX="40.0" layoutY="153.0" prefHeight="356.0" prefWidth="636.0" styleClass="news">
+               <children>
+                  <Text fx:id="judulText" fill="WHITE" layoutX="398.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Judul" textAlignment="CENTER" wrappingWidth="218.35980224609375">
+                     <font>
+                        <Font name="Arial Bold" size="24.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="552.0" layoutY="319.0" mnemonicParsing="false" styleClass="moreButton" text="See More">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Text fill="WHITE" layoutX="398.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deskripsi:">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="deskripsiText" fill="WHITE" layoutX="398.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Malioboro merupakan nama salah satu jalan di pusat Kota Yogyakarta. Jalan Malioboro itu sendiri merupakan salah satu jalan dari tiga jalan di Kota Yogyakarta yang membentang dari Tugu Yogyakarta hingga ke perempatan Kantor Pos Yogyakarta. Secara keseluruhan terdiri dari Jalan Pangeran Mangkubumi, Jalan Malioboro, dan Jalan Jend. A. Yani. Jalan Malioboro merupakan poros Garis Imajiner Kraton Yogyakarta." wrappingWidth="218.35980224609375">
+                     <font>
+                        <Font name="Arial Italic" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="bukaText" fill="WHITE" layoutX="14.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buka: 24 Jam" wrappingWidth="157.66210937500003">
+                     <font>
+                        <Font name="Arial Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="lokasiText" fill="WHITE" layoutX="14.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lokasi : Sosromenduran, Gedong Tengen, Kota Yogyakarta, Daerah Istimewa Yogyakarta" wrappingWidth="291.162109375">
+                     <font>
+                        <Font name="Arial Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="imageView" fitHeight="239.0" fitWidth="354.0" layoutX="14.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </AnchorPane>
+            <Text fill="#806044" layoutX="40.0" layoutY="557.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rekomendasi Wisata">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Text>
+            <HBox layoutX="40.0" layoutY="580.0" prefHeight="204.0" prefWidth="1006.0">
+               <children>
+                  <AnchorPane prefHeight="159.0" prefWidth="198.0" styleClass="news">
+                     <HBox.margin>
+                        <Insets right="60.0" />
+                     </HBox.margin>
+                     <children>
+                        <ImageView fitHeight="106.0" fitWidth="172.0" layoutX="20.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@ImageSRC/Taman%20Sari.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="20.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Taman Sari">
+                           <font>
+                              <Font name="Arial Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="114.0" layoutY="167.0" mnemonicParsing="false" styleClass="moreButton" text="See More">
+                           <font>
+                              <Font name="Arial Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="159.0" prefWidth="198.0" styleClass="news">
+                     <HBox.margin>
+                        <Insets right="60.0" />
+                     </HBox.margin>
+                     <children>
+                        <ImageView fitHeight="106.0" fitWidth="172.0" layoutX="20.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@ImageSRC/News3.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="20.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Paralayang Watugupit">
+                           <font>
+                              <Font name="Arial Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="109.0" layoutY="167.0" mnemonicParsing="false" styleClass="moreButton" text="See More">
+                           <font>
+                              <Font name="Arial Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="159.0" prefWidth="198.0" styleClass="news">
+                     <HBox.margin>
+                        <Insets right="60.0" />
+                     </HBox.margin>
+                     <children>
+                        <ImageView fitHeight="106.0" fitWidth="172.0" layoutX="25.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@ImageSRC/Prambanan.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="25.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Candi Prambanan">
+                           <font>
+                              <Font name="Arial Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="114.0" layoutY="167.0" mnemonicParsing="false" styleClass="moreButton" text="See More">
+                           <font>
+                              <Font name="Arial Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="159.0" prefWidth="198.0" styleClass="news">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <children>
+                        <ImageView fitHeight="106.0" fitWidth="172.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@ImageSRC/Klangon.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="28.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bukit Klangon">
+                           <font>
+                              <Font name="Arial Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="114.0" layoutY="167.0" mnemonicParsing="false" styleClass="moreButton" text="See More">
+                           <font>
+                              <Font name="Arial Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <VBox layoutY="-1.0" prefHeight="803.0" prefWidth="205.0" styleClass="sideBar">
+         <children>
+            <AnchorPane prefHeight="803.0" prefWidth="206.0">
+               <children>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="10.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/Logo.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="50.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nusa Karya">
+                     <font>
+                        <Font name="Arial Black" size="14.0" />
+                     </font>
+                  </Text>
+                  <Separator layoutY="94.0" prefHeight="4.0" prefWidth="205.0" />
+                  <VBox layoutY="105.0" prefHeight="464.0" prefWidth="205.0">
+                     <children>
+                        <Hyperlink fx:id="linkHome" onAction="#Home" text="Home" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImageSRC/home.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <VBox.margin>
+                              <Insets left="20.0" top="30.0" />
+                           </VBox.margin>
+                        </Hyperlink>
+                     </children>
+                  </VBox>
+                  <AnchorPane layoutY="568.0" prefHeight="37.0" prefWidth="206.0">
+                     <children>
+                        <Separator layoutY="17.0" prefWidth="206.0" />
+                     </children>
+                  </AnchorPane>
+                  <VBox layoutY="605.0" prefHeight="198.0" prefWidth="206.0">
+                     <children>
+                        <Hyperlink fx:id="linkSetting" text="Settings" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImageSRC/gear.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <VBox.margin>
+                              <Insets left="20.0" right="5.0" top="20.0" />
+                           </VBox.margin>
+                        </Hyperlink>
+                        <Hyperlink fx:id="linkHelpCenter" text="Help Center" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImageSRC/help.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <VBox.margin>
+                              <Insets left="20.0" right="5.0" top="20.0" />
+                           </VBox.margin>
+                        </Hyperlink>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

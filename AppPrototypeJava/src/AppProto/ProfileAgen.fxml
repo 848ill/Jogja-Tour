@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" styleClass="homePage1" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppProto.ProfileAgenController">
+   <children>
+      <AnchorPane layoutY="335.0" prefHeight="469.0" prefWidth="1280.0" styleClass="homePage2">
+         <children>
+            <AnchorPane layoutX="30.0" layoutY="29.0" prefHeight="227.0" prefWidth="274.0" styleClass="news">
+               <children>
+                  <Text layoutX="14.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Contact Information">
+                     <font>
+                        <Font name="Arial Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="30.0" fitWidth="20.0" layoutX="14.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/WA.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="30.0" fitWidth="20.0" layoutX="14.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/WA.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="48.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+62 812-1234-5678">
+                     <font>
+                        <Font name="Arial Italic" size="14.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="48.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+62 813-2345-6789">
+                     <font>
+                        <Font name="Arial Italic" size="14.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="14.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Social Media">
+                     <font>
+                        <Font name="Arial Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="9.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/logoIG.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="48.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\@Eksplor_Jogja">
+                     <font>
+                        <Font name="Arial Italic" size="14.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="319.0" layoutY="29.0" prefHeight="227.0" prefWidth="464.0" styleClass="news">
+               <children>
+                  <Text layoutX="14.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Services offered">
+                     <font>
+                        <Font name="Arial Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <VBox layoutX="14.0" layoutY="49.0" prefHeight="160.0" prefWidth="123.0">
+                     <children>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="- Tour Guide">
+                           <font>
+                              <Font name="Arial Bold" size="15.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Text>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="- Car Rental">
+                           <font>
+                              <Font name="Arial Bold" size="15.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </Text>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="- Hotels">
+                           <font>
+                              <Font name="Arial Bold" size="15.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="9.0" />
+                           </VBox.margin>
+                        </Text>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="30.0" layoutY="272.0" prefHeight="171.0" prefWidth="450.0" styleClass="news">
+               <children>
+                  <Text layoutX="14.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Description">
+                     <font>
+                        <Font name="Arial Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eksplor Jogja is a travel agent in Jogja offering fun and memorable travel packages, helping you explore the beauty of the city of Jogja. With a selection of popular tourist destinations, as well as authentic local culinary experiences." wrappingWidth="366.64453125">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="494.0" layoutY="272.0" prefHeight="171.0" prefWidth="290.0" styleClass="news">
+               <children>
+                  <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="105.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/verified.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="18.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This agent has been verified and trusted by our application " textAlignment="CENTER" wrappingWidth="253.60400390625">
+                     <font>
+                        <Font name="Arial Italic" size="13.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="801.0" layoutY="29.0" prefHeight="411.0" prefWidth="464.0" styleClass="news">
+               <children>
+                  <Text layoutX="183.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Booking">
+                     <font>
+                        <Font name="Arial Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <ComboBox fx:id="servicesComboBox" layoutX="157.0" layoutY="169.0" prefHeight="16.0" prefWidth="151.0" promptText="Services" />
+                  <Button fx:id="bookingNowButton" layoutX="145.0" layoutY="354.0" mnemonicParsing="false" onAction="#handleBookingNow" styleClass="moreButton" text="Booking Now">
+                     <font>
+                        <Font name="Arial" size="24.0" />
+                     </font>
+                  </Button>
+                  <Text fill="WHITE" layoutX="95.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose what services you want from the agent by pressing the button below and then press the book now button." textAlignment="CENTER" wrappingWidth="274.00000000000006">
+                     <font>
+                        <Font name="Arial Italic" size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="335.0" prefWidth="1280.0" styleClass="hbg" />
+      <AnchorPane prefHeight="335.0" prefWidth="1280.0" styleClass="leftPageGradient">
+         <children>
+            <Hyperlink fx:id="linkHome" layoutX="14.0" layoutY="14.0" onAction="#Home" text="Back To Homepage" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/home.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Hyperlink>
+            <ImageView fitHeight="180.0" fitWidth="180.0" layoutX="550.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ImageSRC/ProfilAgen1.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="542.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eksplor Jogja">
+               <font>
+                  <Font name="Arial Bold" size="30.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="336.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Menggali Pesona Jogja, Menyatu dengan Budaya Menyusuri Keindahan Jogja Bersama Kami Setiap Langkah, Cerita di Jogja&quot;" textAlignment="CENTER" wrappingWidth="607.52490234375">
+               <font>
+                  <Font name="Arial Italic" size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

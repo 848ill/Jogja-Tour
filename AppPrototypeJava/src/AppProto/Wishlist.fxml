@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppProto.WishController">
+   <children>
+      <AnchorPane fx:id="wishKosong" layoutX="272.0" prefHeight="800.0" prefWidth="1009.0" styleClass="homePage">
+         <children>
+            <Text layoutX="372.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="My Wishlist">
+               <font>
+                  <Font name="Arial Bold" size="48.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="430.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ImageSRC/Wishlist.png" />
+               </image>
+            </ImageView>
+            <Text fill="TAN" layoutX="317.0" layoutY="445.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Oops Looks like there nothing on your wishlist right now" textAlignment="CENTER" wrappingWidth="376.90625">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="wishIsi" layoutX="272.0" prefHeight="800.0" prefWidth="1009.0" styleClass="homePage">
+         <children>
+            <Text layoutX="372.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="My Wishlist">
+               <font>
+                  <Font name="Arial Bold" size="48.0" />
+               </font>
+            </Text>
+            <Text layoutX="46.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Your Wishlist:">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Text>
+            <AnchorPane layoutX="46.0" layoutY="198.0" prefHeight="280.0" prefWidth="236.0" styleClass="news">
+               <children>
+                  <ImageView fx:id="fotoWisata" fitHeight="150.0" fitWidth="200.0" layoutX="18.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+                  <Text fx:id="judulWisata" fill="WHITE" layoutX="18.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Judul ">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="deskWisata" fill="WHITE" layoutX="18.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deskripsi singkat mengenai tempat wisata yang user masukan kedalam wishlist" wrappingWidth="200.0">
+                     <font>
+                        <Font name="Arial Italic" size="13.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="166.0" layoutY="241.0" mnemonicParsing="false" styleClass="moreButton" text="More" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="325.0" layoutY="198.0" prefHeight="280.0" prefWidth="236.0" styleClass="news">
+               <children>
+                  <ImageView fx:id="fotoWisata2" fitHeight="150.0" fitWidth="200.0" layoutX="18.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+                  <Text fx:id="judulWisata2" fill="WHITE" layoutX="18.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Judul ">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="deskWisata2" fill="WHITE" layoutX="18.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deskripsi singkat mengenai tempat wisata yang user masukan kedalam wishlist" wrappingWidth="199.99999999999994">
+                     <font>
+                        <Font name="Arial Italic" size="13.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="166.0" layoutY="241.0" mnemonicParsing="false" styleClass="moreButton" text="More" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="606.0" layoutY="198.0" prefHeight="280.0" prefWidth="236.0" styleClass="news">
+               <children>
+                  <ImageView fx:id="fotoWisata3" fitHeight="150.0" fitWidth="200.0" layoutX="18.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+                  <Text fx:id="judulWisata3" fill="WHITE" layoutX="18.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Judul ">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="deskWisata3" fill="WHITE" layoutX="18.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deskripsi singkat mengenai tempat wisata yang user masukan kedalam wishlist" wrappingWidth="199.9999999999999">
+                     <font>
+                        <Font name="Arial Italic" size="13.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="166.0" layoutY="241.0" mnemonicParsing="false" styleClass="moreButton" text="More" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="46.0" layoutY="498.0" prefHeight="280.0" prefWidth="236.0" styleClass="news">
+               <children>
+                  <ImageView fx:id="fotoWisata4" fitHeight="150.0" fitWidth="200.0" layoutX="18.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+                  <Text fx:id="judulWisata4" fill="WHITE" layoutX="18.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Judul ">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="deskWisata4" fill="WHITE" layoutX="18.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deskripsi singkat mengenai tempat wisata yang user masukan kedalam wishlist" wrappingWidth="200.0">
+                     <font>
+                        <Font name="Arial Italic" size="13.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="166.0" layoutY="241.0" mnemonicParsing="false" styleClass="moreButton" text="More" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="325.0" layoutY="498.0" prefHeight="280.0" prefWidth="236.0" styleClass="news">
+               <children>
+                  <ImageView fx:id="fotoWisata5" fitHeight="150.0" fitWidth="200.0" layoutX="18.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+                  <Text fx:id="judulWisata5" fill="WHITE" layoutX="18.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Judul ">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="deskWisata5" fill="WHITE" layoutX="18.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deskripsi singkat mengenai tempat wisata yang user masukan kedalam wishlist" wrappingWidth="200.0">
+                     <font>
+                        <Font name="Arial Italic" size="13.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="166.0" layoutY="241.0" mnemonicParsing="false" styleClass="moreButton" text="More" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="606.0" layoutY="498.0" prefHeight="280.0" prefWidth="236.0" styleClass="news">
+               <children>
+                  <ImageView fx:id="fotoWisata6" fitHeight="150.0" fitWidth="200.0" layoutX="18.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+                  <Text fx:id="judulWisata6" fill="WHITE" layoutX="18.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Judul ">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="deskWisata6" fill="WHITE" layoutX="18.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deskripsi singkat mengenai tempat wisata yang user masukan kedalam wishlist" wrappingWidth="199.9999999999999">
+                     <font>
+                        <Font name="Arial Italic" size="13.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="166.0" layoutY="241.0" mnemonicParsing="false" styleClass="moreButton" text="More" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <VBox prefHeight="800.0" prefWidth="272.0" styleClass="sideBar">
+         <children>
+            <AnchorPane prefHeight="55.0" prefWidth="272.0">
+               <children>
+                  <Text fill="WHITE" layoutX="84.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JoTo">
+                     <font>
+                        <Font name="Arial Black" size="20.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="39.0" fitWidth="40.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/LogoJT.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Hyperlink fx:id="linkHome" onAction="#Home" text="Back To Home" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/home.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets left="40.0" top="50.0" />
+               </VBox.margin>
+            </Hyperlink>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

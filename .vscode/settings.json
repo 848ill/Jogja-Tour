@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "AppPrototypeJava/lib/xstream-1.4.20.jar",
+        "AppPrototypeJava/lib/fontawesomefx-8.2.jar"
+    ]
+}

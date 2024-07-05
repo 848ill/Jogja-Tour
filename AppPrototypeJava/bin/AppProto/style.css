@@ -1,0 +1,178 @@
+/* Template elemen loginpage */
+.leftPage{
+    -fx-background-image: url("ImageSRC/Yogya1.jpg");
+    -fx-background-size: cover; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+.leftPageGradient {
+    -fx-background-color: linear-gradient(to bottom, rgba(102,66,41,0.7), rgba(229,211,179,0.7));
+}
+.rightPage{
+    -fx-background-color: white;
+}
+
+/* Template elemen Homepage*/
+.hbg{
+    -fx-background-image: url(ImageSRC/bg1.jpg);
+    -fx-background-size: cover; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+.homePage {
+    -fx-background-color: #e5d3b8;
+}
+.sideBar {
+    -fx-background-color: #d2b48c;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0, 0, 5);
+}
+.textColor {
+    -fx-fill: #806044;
+}
+.searchBar {
+    -fx-background-color: White;
+    -fx-background-radius: 20px;
+}
+
+/* Textfield elemen */
+.userNameBar {
+    -fx-background-color: transparent;
+    -fx-border-color: #806044;
+    -fx-border-width: 0px 0px 2px 0px ;
+    -fx-cursor: hand;
+}
+.passwordBar {
+    -fx-background-color: transparent;
+    -fx-border-color: #806044;
+    -fx-border-width: 0px 0px 2px 0px ;
+}
+
+/* Button Elemen */
+.loginButton {
+    -fx-background-color: #806044;
+    -fx-text-fill: white;
+    -fx-border-color: #806044;
+    -fx-border-radius: 5px;
+}
+.RenterButton {
+    -fx-background-color: #e5d3b3;
+    -fx-text-fill: white;
+    -fx-border-color: #e5d3b3;
+    -fx-border-radius: 5px;
+}
+.closeButton {
+    -fx-background-color: transparent;
+}
+
+.Datebutton {
+    -fx-border-color: #806044;
+}
+
+/* Image View */
+.bgImage {
+    -fx-image: url(ImageSRC/Yogya1.jpg);
+}
+.bgImage1{
+    -fx-background-color: rgba(0, 0, 0, 0.298);
+}
+.iconLoc {
+    -fx-image: url(ImageSRC/location.png);
+}
+.iconLoc2 {
+    -fx-image: url(ImageSRC/star.png);
+}
+.moreButton {
+    -fx-background-color: #806044;
+    -fx-border-radius: 3px;
+    -fx-text-fill: white;
+}
+
+/* Section Homepage */
+.wisata1 {
+    -fx-background-image: url(ImageSRC/Malioboro.jpg);
+    -fx-background-size: cover; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-radius: 3px;
+}
+.wisata2 {
+    -fx-background-image: url(ImageSRC/Prambanan.jpg);
+    -fx-background-size: cover; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+.wisata3 {
+    -fx-background-image: url(ImageSRC/Obelix.jpg);
+    -fx-background-size: cover; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+.wisata4 {
+    -fx-background-image: url(ImageSRC/Bukbin.jpg);
+    -fx-background-size: cover; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+.category1 {
+    -fx-background-image: url(ImageSRC/Alam1.jpg);
+    -fx-background-size: cover; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+.category2 {
+    -fx-background-image: url(ImageSRC/Kuliner.png);
+    -fx-background-size: cover; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+.category3 {
+    -fx-background-image: url(ImageSRC/Religi.jpg);
+    -fx-background-size: cover; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+.category4 {
+    -fx-background-image: url(ImageSRC/Budaya.jpg);
+    -fx-background-size: cover; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+.news{
+    -fx-background-color: #d2b48c;
+    -fx-background-radius: 5px;
+}
+.news:hover{
+    -fx-border-color: white;
+    -fx-border-radius: 5px;
+}
+.nimg1 {
+    -fx-background-image: url(ImageSRC/News1.jpg);
+    -fx-background-size: cover; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+.nimg2 {
+    -fx-background-image: url(ImageSRC/News2.jpg);
+    -fx-background-size: cover; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+.nimg3 {
+    -fx-background-image: url(ImageSRC/News3.jpg);
+    -fx-background-size: cover; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+
+
+/* Profile Section */
+.profbutton {
+    -fx-background-color: #806044;
+    -fx-background-radius: 30px;
+    -fx-text-fill: white;
+}
+.editProf {
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: #806044;
+}

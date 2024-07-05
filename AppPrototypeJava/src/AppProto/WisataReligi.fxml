@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" stylesheets="@style.css" vmax="200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppProto.WisataReligiController">
+   <content>
+      <AnchorPane prefHeight="1153.0" prefWidth="471.0">
+         <children>
+            <AnchorPane layoutX="9.0" prefHeight="2510.0" prefWidth="1265.0" styleClass="BackgroundDarkBrown" />
+            <AnchorPane layoutX="550.0" layoutY="20.0" prefHeight="2494.0" prefWidth="684.0" styleClass="BackgroundDarkBrown" />
+            <AnchorPane layoutX="-56.0" layoutY="30.0" prefHeight="2485.0" prefWidth="932.0" styleClass="BackgroundDarkBrown" />
+            <AnchorPane layoutY="-255.0" prefHeight="685.0" prefWidth="1263.0" styleClass="MainImageKategoriReligi">
+               <children>
+                  <AnchorPane layoutY="255.0" prefHeight="430.0" prefWidth="1265.0" styleClass="bgGradient">
+                     <children>
+                        <HBox alignment="CENTER_LEFT" layoutX="52.0" layoutY="370.0" spacing="10">
+                           <children>
+                              <ComboBox fx:id="locationComboBox" onAction="#onLocationChanged" prefHeight="30.0" prefWidth="200.0" promptText="All Locations" />
+                           </children>
+                        </HBox>
+                        <Label layoutX="259.0" layoutY="74.0" prefHeight="224.0" prefWidth="855.0" styleClass="JudulKategori" text="Wisata Religi Jogja">
+                           <font>
+                              <Font size="64.0" />
+                           </font>
+                        </Label>
+                        <Hyperlink fx:id="linkHome" focusTraversable="false" layoutX="22.0" layoutY="22.0" onAction="#Home" text="Back To Homepage" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold" size="18.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImageSRC/home.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Hyperlink>
+                     </children>
+                  </AnchorPane>
+               </children>
+               <opaqueInsets>
+                  <Insets right="40.0" />
+               </opaqueInsets>
+            </AnchorPane>
+            <VBox fx:id="placeList" layoutX="30.0" layoutY="455.0" prefHeight="2028.0" prefWidth="1222.0" spacing="20">
+               <children>
+                  <HBox alignment="CENTER_LEFT" spacing="10" styleClass="bgColorTempatWisata">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="250.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@ImageSRC/prambanan.jpeg" />
+                           </image>
+                        </ImageView>
+                        <VBox pickOnBounds="false" spacing="5" styleClass="MainColor" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label styleClass="JudulTempatWisata" text="Candi Prambanan" />
+                              <Label text="Kabupaten Sleman" />
+                              <Label styleClass="DescriptionText" text="Kompleks candi Hindu terbesar di Indonesia." wrapText="true" />
+                              <Label text="Open : 06.00 - 17.00" />
+                              <Label styleClass="RatingText" text="Rating: 4.6/5" />
+                           </children>
+                        </VBox>
+                        <AnchorPane prefHeight="71.0" prefWidth="200.0">
+                           <children>
+                              <Button layoutX="32.0" layoutY="38.0" prefHeight="32.0" prefWidth="150.0" styleClass="LihatDetailText" text="View Details" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" spacing="10" styleClass="bgColorTempatWisata">
+                     <children>
+                        <ImageView fitHeight="150" fitWidth="250.0">
+                           <image>
+                              <Image url="@ImageSRC/borobudur.jpeg" />
+                           </image>
+                        </ImageView>
+                        <VBox spacing="5" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label styleClass="JudulTempatWisata" text="Candi Borobudur" />
+                              <Label text="Kabupaten Magelang" />
+                              <Label styleClass="DescriptionText" text="Candi Buddha terbesar di dunia yang merupakan situs warisan dunia UNESCO." wrapText="true" />
+                              <Label text="Open : 06.00 - 17.00" />
+                              <Label styleClass="RatingText" text="Rating: 4.7/5" />
+                           </children>
+                        </VBox>
+                        <AnchorPane prefHeight="71.0" prefWidth="200.0">
+                           <children>
+                              <Button layoutX="32.0" layoutY="38.0" prefHeight="32.0" prefWidth="150.0" styleClass="LihatDetailText" text="View Details" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" spacing="10" styleClass="bgColorTempatWisata">
+                     <children>
+                        <ImageView fitHeight="150" fitWidth="250.0">
+                           <image>
+                              <Image url="@ImageSRC/pura_vaikuntha_vyomantara.jpeg" />
+                           </image>
+                        </ImageView>
+                        <VBox spacing="5" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label styleClass="JudulTempatWisata" text="Pura Vaikuntha Vyomantara" />
+                              <Label text="Kabupaten Sleman" />
+                              <Label styleClass="DescriptionText" text="Pura Hindu dengan arsitektur unik di lereng Merapi." wrapText="true" />
+                              <Label text="Open : 06.00 - 18.00" />
+                              <Label styleClass="RatingText" text="Rating: 4.5/5" />
+                           </children>
+                        </VBox>
+                        <AnchorPane prefHeight="71.0" prefWidth="200.0">
+                           <children>
+                              <Button layoutX="32.0" layoutY="38.0" prefHeight="32.0" prefWidth="150.0" styleClass="LihatDetailText" text="View Details" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" spacing="10" styleClass="bgColorTempatWisata">
+                     <children>
+                        <ImageView fitHeight="150" fitWidth="250.0">
+                           <image>
+                              <Image url="@ImageSRC/ratu_boko.jpeg" />
+                           </image>
+                        </ImageView>
+                        <VBox spacing="5" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label styleClass="JudulTempatWisata" text="Candi Ratu Boko" />
+                              <Label text="Kabupaten Sleman" />
+                              <Label styleClass="DescriptionText" text="Situs arkeologi bersejarah dengan pemandangan spektakuler Candi Prambanan." wrapText="true" />
+                              <Label text="Open : 06.00 - 17.30" />
+                              <Label styleClass="RatingText" text="Rating: 4.5/5" />
+                           </children>
+                        </VBox>
+                        <AnchorPane prefHeight="71.0" prefWidth="200.0">
+                           <children>
+                              <Button layoutX="32.0" layoutY="38.0" prefHeight="32.0" prefWidth="150.0" styleClass="LihatDetailText" text="View Details" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" spacing="10" styleClass="bgColorTempatWisata">
+                     <children>
+                        <ImageView fitHeight="150" fitWidth="250.0">
+                           <image>
+                              <Image url="@ImageSRC/sambisari.jpeg" />
+                           </image>
+                        </ImageView>
+                        <VBox spacing="5" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label styleClass="JudulTempatWisata" text="Candi Sambisari" />
+                              <Label text="Kabupaten Sleman" />
+                              <Label styleClass="DescriptionText" text="Candi Hindu kuno yang tersembunyi di bawah permukaan tanah selama berabad-abad." wrapText="true" />
+                              <Label text="Open : 08.00 - 17.00" />
+                              <Label styleClass="RatingText" text="Rating: 4.4/5" />
+                           </children>
+                        </VBox>
+                        <AnchorPane prefHeight="71.0" prefWidth="200.0">
+                           <children>
+                              <Button layoutX="6.0" layoutY="38.0" prefHeight="32.0" prefWidth="150.0" styleClass="LihatDetailText" text="View Details" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" spacing="10" styleClass="bgColorTempatWisata">
+                     <children>
+                        <ImageView fitHeight="150" fitWidth="250.0">
+                           <image>
+                              <Image url="@ImageSRC/kalasan.jpeg" />
+                           </image>
+                        </ImageView>
+                        <VBox spacing="5" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label styleClass="JudulTempatWisata" text="Candi Kalasan" />
+                              <Label text="Kabupaten Sleman" />
+                              <Label styleClass="DescriptionText" text="Candi Buddha tertua di Yogyakarta dengan arsitektur yang indah." wrapText="true" />
+                              <Label text="Open : 06.00 - 17.00" />
+                              <Label styleClass="RatingText" text="Rating: 4.3/5" />
+                           </children>
+                        </VBox>
+                        <AnchorPane prefHeight="71.0" prefWidth="200.0">
+                           <children>
+                              <Button layoutX="32.0" layoutY="38.0" prefHeight="32.0" prefWidth="150.0" styleClass="LihatDetailText" text="View Details" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" spacing="10" styleClass="bgColorTempatWisata">
+                     <children>
+                        <ImageView fitHeight="150" fitWidth="250.0">
+                           <image>
+                              <Image url="@ImageSRC/masjid_gede_kauman.jpeg" />
+                           </image>
+                        </ImageView>
+                        <VBox spacing="5" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label styleClass="JudulTempatWisata" text="Masjid Gede Kauman" />
+                              <Label text="Kota Yogyakarta" />
+                              <Label styleClass="DescriptionText" text="Masjid tertua dan terbesar di Yogyakarta dengan arsitektur Jawa yang khas." wrapText="true" />
+                              <Label text="Open : 04.00 - 21.00" />
+                              <Label styleClass="RatingText" text="Rating: 4.6/5" />
+                           </children>
+                        </VBox>
+                        <AnchorPane prefHeight="71.0" prefWidth="200.0">
+                           <children>
+                              <Button layoutX="32.0" layoutY="38.0" prefHeight="32.0" prefWidth="150.0" styleClass="LihatDetailText" text="View Details" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" spacing="10" styleClass="bgColorTempatWisata">
+                     <children>
+                        <ImageView fitHeight="150" fitWidth="250.0">
+                           <image>
+                              <Image url="@ImageSRC/gereja_ganjuran.jpg" />
+                           </image>
+                        </ImageView>
+                        <VBox spacing="5" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label styleClass="JudulTempatWisata" text="Gereja Ganjuran" />
+                              <Label text="Kabupaten Bantul" />
+                              <Label styleClass="DescriptionText" text="Gereja unik arsitektur Jawa yang menggabungkan budaya lokal dan Katolik." wrapText="true" />
+                              <Label text="Open : 06.00 - 18.00" />
+                              <Label styleClass="RatingText" text="Rating: 4.5/5" />
+                           </children>
+                        </VBox>
+                        <AnchorPane prefHeight="71.0" prefWidth="200.0">
+                           <children>
+                              <Button layoutX="32.0" layoutY="38.0" prefHeight="32.0" prefWidth="150.0" styleClass="LihatDetailText" text="View Details" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" spacing="10" styleClass="bgColorTempatWisata">
+                     <children>
+                        <ImageView fitHeight="150" fitWidth="249.0">
+                           <image>
+                              <Image url="@ImageSRC/sendang_sono.jpeg" />
+                           </image>
+                        </ImageView>
+                        <VBox spacing="5" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label styleClass="JudulTempatWisata" text="Sendang Sono" />
+                              <Label text="Kabupaten Kulon Progo" />
+                              <Label styleClass="DescriptionText" text="Tempat ziarah Katolik yang tenang dengan mata air suci dan lingkungan asri." wrapText="true" />
+                              <Label text="Open : 06.00 - 18.00" />
+                              <Label styleClass="RatingText" text="Rating: 4.5/5" />
+                           </children>
+                        </VBox>
+                        <AnchorPane prefHeight="71.0" prefWidth="200.0">
+                           <children>
+                              <Button layoutX="32.0" layoutY="38.0" prefHeight="32.0" prefWidth="150.0" styleClass="LihatDetailText" text="View Details" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" spacing="10" styleClass="bgColorTempatWisata">
+                     <children>
+                        <ImageView fitHeight="150" fitWidth="250.0">
+                           <image>
+                              <Image url="@ImageSRC/gua_maria_tritis.jpeg" />
+                           </image>
+                        </ImageView>
+                        <VBox spacing="5" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label styleClass="JudulTempatWisata" text="Gua Maria Tritis" />
+                              <Label text="Kabupaten Gunung Kidul" />
+                              <Label styleClass="DescriptionText" text="Tempat ziarah Katolik di dalam gua alami dengan pemandangan alam yang indah." wrapText="true" />
+                              <Label text="Open : 06.00 - 18.00" />
+                              <Label styleClass="RatingText" text="Rating: 4.6/5" />
+                           </children>
+                        </VBox>
+                        <AnchorPane prefHeight="71.0" prefWidth="200.0">
+                           <children>
+                              <Button layoutX="32.0" layoutY="38.0" prefHeight="32.0" prefWidth="150.0" styleClass="LihatDetailText" text="View Details" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
