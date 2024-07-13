@@ -46,6 +46,8 @@ public class HomepageController implements Initializable {
     @FXML
     private Button catReligi;
     @FXML private Button news;
+    @FXML private Button news1;
+    @FXML private Button news2;
 
 
     // Wisata
@@ -108,6 +110,28 @@ public class HomepageController implements Initializable {
             "Kebun Buah Mangunan di Bantul, Yogyakarta, menawarkan pesona alam yang memukau dengan kebun-kebun buah yang teratur di lereng perbukitan. Pengunjung dapat menikmati panorama indah perbukitan dan sawah hijau, serta menikmati suasana sejuk dari hutan pinus di sekitarnya. Tempat ini juga terkenal dengan spot-spot foto yang menarik dan menyediakan berbagai buah segar langsung dari kebunnya.",
             "05.00 - 18.00 WIB"
         ));
+        listDestinasi.add(new Destinasi(
+            "Heha Sky View",
+            "Jl. Dlingo Patuk No.2",
+            "/AppProto/ImageSRC/Heha2.jpg",
+            "Heha Sky View adalah puncak yang terletak di Jalan Dlingo Patuk No.2, Bantul. Puncak ini memiliki suasana yang indah, terdapat taman hiburan yang berada di atas puncak, dan juga terdapat spot-spot foto yang menarik. Puncak Heha Sky View juga menawarkan kesempatan menikmati bintang yang indah",
+            "07.00 - 17.00 WIB"
+        ));
+        listDestinasi.add(new Destinasi(
+            "Candi Prambanan",
+            "Jl. Raya Solo - Yogyakarta No.16",
+            "/AppProto/ImageSRC/Prambanan.jpg",
+            "Candi Prambanan adalah tempat wisata yang terletak di Jalan Raya Solo - Yogyakarta. Tempat ini terkenal dengan spot-spot foto yang menarik, dan juga terdapat bangunan candi yang indah. Selain itu candi prambanan juga menawarkan cerita budaya yang menarik untuk di ikuti",
+            "07.00 - 17.00 WIB"
+        ));
+        listDestinasi.add(new Destinasi(
+            "Bukit Klangon",
+            "Jl. Jend. A. Yani - Pleret No.15",
+            "/AppProto/ImageSRC/bukitKlangon3.jpg",
+            "Bukit Klangon adalah tempat wisata yang terkenal yang ada di Sleman, karena selain menawarkan pemandangan indah gunung merapi, bukit klangon juga memiliki hawa yang segar dan sejuk serta menawarkan pemandangan kota",
+            "07.00 - 17.00 WIB"
+        ));
+
     }
 
     // Untuk Profile dan Username user
@@ -212,6 +236,22 @@ public class HomepageController implements Initializable {
     public void News(ActionEvent event) {
         if (news != null) {
             openScene.openScene("News", news);
+        }
+    }
+
+    // Untuk Pergi Ke News
+    @FXML
+    public void News1(ActionEvent event) {
+        if (news1 != null) {
+            openScene.openScene("Newss", news1);
+        }
+    }
+
+    // Untuk Pergi Ke News
+    @FXML
+    public void News2(ActionEvent event) {
+        if (news2 != null) {
+            openScene.openScene("Newsss", news2);
         }
     }
 

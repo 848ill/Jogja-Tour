@@ -70,6 +70,7 @@
                         <AnchorPane prefHeight="71.0" prefWidth="200.0">
                            <children>
                               <Button layoutX="32.0" layoutY="38.0" prefHeight="32.0" prefWidth="150.0" styleClass="LihatDetailText" text="View Details" />
+                              <Hyperlink layoutX="32.0" layoutY="84.0" onAction="#TicketPayment" prefHeight="32.0" prefWidth="150.0" styleClass="BuyTicketsButton" stylesheets="@style.css" text="Buy Ticket" />
                            </children>
                         </AnchorPane>
                      </children>
@@ -93,6 +94,7 @@
                         <AnchorPane prefHeight="71.0" prefWidth="200.0">
                            <children>
                               <Button layoutX="32.0" layoutY="38.0" prefHeight="32.0" prefWidth="150.0" styleClass="LihatDetailText" text="View Details" />
+                              <Hyperlink layoutX="32.0" layoutY="84.0" onAction="#TicketPayment" prefHeight="32.0" prefWidth="150.0" styleClass="BuyTicketsButton" stylesheets="@style.css" text="Buy Ticket" />
                            </children>
                         </AnchorPane>
                      </children>
@@ -116,6 +118,7 @@
                         <AnchorPane prefHeight="71.0" prefWidth="200.0">
                            <children>
                               <Button layoutX="32.0" layoutY="38.0" prefHeight="32.0" prefWidth="150.0" styleClass="LihatDetailText" text="View Details" />
+                              <Hyperlink layoutX="32.0" layoutY="84.0" onAction="#TicketPayment" prefHeight="32.0" prefWidth="150.0" styleClass="BuyTicketsButton" stylesheets="@style.css" text="Buy Ticket" />
                            </children>
                         </AnchorPane>
                      </children>
@@ -139,6 +142,7 @@
                         <AnchorPane prefHeight="71.0" prefWidth="200.0">
                            <children>
                               <Button layoutX="32.0" layoutY="38.0" prefHeight="32.0" prefWidth="150.0" styleClass="LihatDetailText" text="View Details" />
+                              <Hyperlink layoutX="32.0" layoutY="84.0" onAction="#TicketPayment" prefHeight="32.0" prefWidth="150.0" styleClass="BuyTicketsButton" stylesheets="@style.css" text="Buy Ticket" />
                            </children>
                         </AnchorPane>
                      </children>
@@ -162,6 +166,7 @@
                         <AnchorPane prefHeight="71.0" prefWidth="200.0">
                            <children>
                               <Button layoutX="32.0" layoutY="38.0" prefHeight="32.0" prefWidth="150.0" styleClass="LihatDetailText" text="View Details" />
+                              <Hyperlink layoutX="32.0" layoutY="84.0" onAction="#TicketPayment" prefHeight="32.0" prefWidth="150.0" styleClass="BuyTicketsButton" stylesheets="@style.css" text="Buy Ticket" />
                            </children>
                         </AnchorPane>
                      </children>
@@ -185,6 +190,7 @@
                         <AnchorPane prefHeight="71.0" prefWidth="200.0">
                            <children>
                               <Button layoutX="32.0" layoutY="38.0" prefHeight="32.0" prefWidth="150.0" styleClass="LihatDetailText" text="View Details" />
+                              <Hyperlink layoutX="32.0" layoutY="84.0" onAction="#TicketPayment" prefHeight="32.0" prefWidth="150.0" styleClass="BuyTicketsButton" stylesheets="@style.css" text="Buy Ticket" />
                            </children>
                         </AnchorPane>
                      </children>
@@ -208,6 +214,7 @@
                         <AnchorPane prefHeight="71.0" prefWidth="200.0">
                            <children>
                               <Button layoutX="32.0" layoutY="38.0" prefHeight="32.0" prefWidth="150.0" styleClass="LihatDetailText" text="View Details" />
+                              <Hyperlink layoutX="32.0" layoutY="84.0" onAction="#TicketPayment" prefHeight="32.0" prefWidth="150.0" styleClass="BuyTicketsButton" stylesheets="@style.css" text="Buy Ticket" />
                            </children>
                         </AnchorPane>
                      </children>
@@ -231,6 +238,7 @@
                         <AnchorPane prefHeight="71.0" prefWidth="200.0">
                            <children>
                               <Button layoutX="32.0" layoutY="38.0" prefHeight="32.0" prefWidth="150.0" styleClass="LihatDetailText" text="View Details" />
+                              <Hyperlink layoutX="32.0" layoutY="84.0" onAction="#TicketPayment" prefHeight="32.0" prefWidth="150.0" styleClass="BuyTicketsButton" stylesheets="@style.css" text="Buy Ticket" />
                            </children>
                         </AnchorPane>
                      </children>
@@ -254,6 +262,7 @@
                         <AnchorPane prefHeight="71.0" prefWidth="200.0">
                            <children>
                               <Button layoutX="32.0" layoutY="38.0" prefHeight="32.0" prefWidth="150.0" styleClass="LihatDetailText" text="View Details" />
+                              <Hyperlink layoutX="32.0" layoutY="84.0" onAction="#TicketPayment" prefHeight="32.0" prefWidth="150.0" styleClass="BuyTicketsButton" stylesheets="@style.css" text="Buy Ticket" />
                            </children>
                         </AnchorPane>
                      </children>
@@ -277,6 +286,7 @@
                         <AnchorPane prefHeight="71.0" prefWidth="200.0">
                            <children>
                               <Button layoutX="32.0" layoutY="38.0" prefHeight="32.0" prefWidth="150.0" styleClass="LihatDetailText" text="View Details" />
+                              <Hyperlink layoutX="32.0" layoutY="84.0" onAction="#TicketPayment" prefHeight="32.0" prefWidth="150.0" styleClass="BuyTicketsButton" stylesheets="@style.css" text="Buy Ticket" />
                            </children>
                         </AnchorPane>
                      </children>
@@ -300,6 +310,7 @@
                         <AnchorPane prefHeight="71.0" prefWidth="200.0">
                            <children>
                               <Button layoutX="32.0" layoutY="38.0" prefHeight="32.0" prefWidth="150.0" styleClass="LihatDetailText" text="View Details" />
+                              <Hyperlink layoutX="32.0" layoutY="84.0" onAction="#TicketPayment" prefHeight="32.0" prefWidth="150.0" styleClass="BuyTicketsButton" stylesheets="@style.css" text="Buy Ticket" />
                            </children>
                         </AnchorPane>
                      </children>

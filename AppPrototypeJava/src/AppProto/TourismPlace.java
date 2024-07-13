@@ -68,6 +68,4 @@ public class TourismPlace {
     public void setRating(String rating) {
         this.rating = rating;
     }
-
-
 }

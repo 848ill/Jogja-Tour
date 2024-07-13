@@ -9,6 +9,13 @@
             "name": "AppMain",
             "request": "launch",
             "mainClass": "AppProto.AppMain",
+            "projectName": "Jogja-Tour_78cc9cbf"
+        },
+        {
+            "type": "java",
+            "name": "AppMain",
+            "request": "launch",
+            "mainClass": "AppProto.AppMain",
             "projectName": "JavaFXML_548bc9"
         },
         {

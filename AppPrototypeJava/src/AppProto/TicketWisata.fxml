@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppProto.TicketPaymentController">
+   <children>
+      <AnchorPane layoutX="-2.0" prefHeight="800.0" prefWidth="1280.0" styleClass="homePage1" stylesheets="@style.css" />
+      <AnchorPane prefHeight="800.0" prefWidth="1280.0" styleClass="homePage2">
+         <children>
+            <Text layoutX="491.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Ticket Payment">
+               <font>
+                  <Font name="Arial Bold" size="40.0" />
+               </font>
+            </Text>
+            <AnchorPane layoutX="99.0" layoutY="85.0" prefHeight="687.0" prefWidth="1082.0" styleClass="news" stylesheets="@style.css">
+               <children>
+                  <Text fill="WHITE" layoutX="22.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact Info and Personal Data:">
+                     <font>
+                        <Font name="Arial Bold" size="35.0" />
+                     </font>
+                  </Text>
+                  <HBox layoutX="22.0" layoutY="79.0" prefHeight="58.0" prefWidth="717.0">
+                     <children>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="E-Mail:">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="19.0" />
+                           </HBox.margin>
+                        </Text>
+                        <TextField fx:id="masukEmail" prefHeight="27.0" prefWidth="648.0" styleClass="userNameBar">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <HBox.margin>
+                              <Insets left="20.0" top="19.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="22.0" layoutY="195.0" prefHeight="58.0" prefWidth="329.0">
+                     <children>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name:">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="19.0" />
+                           </HBox.margin>
+                        </Text>
+                        <TextField fx:id="masukNamaPertama" prefHeight="27.0" prefWidth="219.0" styleClass="userNameBar">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <HBox.margin>
+                              <Insets left="20.0" top="19.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="410.0" layoutY="195.0" prefHeight="58.0" prefWidth="329.0">
+                     <children>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name:">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="19.0" />
+                           </HBox.margin>
+                        </Text>
+                        <TextField fx:id="masukNamaTerakhir" prefHeight="27.0" prefWidth="219.0" styleClass="userNameBar">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <HBox.margin>
+                              <Insets left="20.0" top="19.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="22.0" layoutY="253.0" prefHeight="58.0" prefWidth="717.0">
+                     <children>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Booking Date:">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="19.0" />
+                           </HBox.margin>
+                        </Text>
+                        <TextField fx:id="masukTanggalBooking" prefHeight="27.0" prefWidth="600.0" styleClass="userNameBar">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <HBox.margin>
+                              <Insets left="20.0" top="19.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="22.0" layoutY="137.0" prefHeight="58.0" prefWidth="717.0">
+                     <children>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Telephone:">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="19.0" />
+                           </HBox.margin>
+                        </Text>
+                        <TextField fx:id="masukNoTelepon" prefHeight="27.0" prefWidth="618.0" styleClass="userNameBar">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <HBox.margin>
+                              <Insets left="20.0" top="19.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <Text fill="WHITE" layoutX="22.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment">
+                     <font>
+                        <Font name="Arial Bold" size="35.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="22.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;All transactions are secured and encrypted&quot;.">
+                     <font>
+                        <Font name="Arial Italic" size="14.0" />
+                     </font>
+                  </Text>
+                  <HBox layoutX="368.0" layoutY="475.0" prefHeight="58.0" prefWidth="586.0">
+                     <children>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="E-Wallet Number:">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="19.0" />
+                           </HBox.margin>
+                        </Text>
+                        <PasswordField fx:id="masukNomorPhone" prefHeight="28.0" prefWidth="425.0" styleClass="userNameBar">
+                           <HBox.margin>
+                              <Insets left="20.0" top="19.0" />
+                           </HBox.margin>
+                        </PasswordField>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="368.0" layoutY="546.0" prefHeight="58.0" prefWidth="401.0" />
+                  <Button fx:id="payButton" layoutX="491.0" layoutY="603.0" mnemonicParsing="false" onAction="#Back" prefHeight="36.0" prefWidth="373.0" styleClass="moreButton" text="Pay">
+                     <font>
+                        <Font name="Arial" size="20.0" />
+                     </font>
+                  </Button>
+                  <AnchorPane layoutX="47.0" layoutY="416.0" prefHeight="222.0" prefWidth="272.0" styleClass="cardJasa">
+                     <children>
+                        <Text fill="WHITE" layoutX="60.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Payment Method" textAlignment="CENTER" wrappingWidth="149.0">
+                           <font>
+                              <Font name="Arial Bold" size="18.0" />
+                           </font>
+                        </Text>
+                        <ChoiceBox fx:id="paymentMethodChoiceBox" layoutX="57.0" layoutY="107.0" prefWidth="150.0">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></ChoiceBox>
+                     </children>
+                  </AnchorPane>
+                  <Label layoutX="780.0" layoutY="144.0" lineSpacing="10.0" prefHeight="137.0" prefWidth="263.0" text="Complete your payment now and enjoy your upcoming journey with JoTo!" textAlignment="CENTER" textFill="#815f36" wrapText="true">
+                     <font>
+                        <Font name="Arial Bold Italic" size="20.0" />
+                     </font></Label>
+                  <HBox layoutX="368.0" layoutY="416.0" prefHeight="58.0" prefWidth="601.0">
+                     <children>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount of tickets:">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="19.0" />
+                           </HBox.margin>
+                        </Text>
+                        <PasswordField fx:id="masukNomorPhone1" prefHeight="28.0" prefWidth="415.0" styleClass="userNameBar">
+                           <HBox.margin>
+                              <Insets left="20.0" top="19.0" />
+                           </HBox.margin>
+                        </PasswordField>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+            <Hyperlink fx:id="linkBack" layoutX="26.0" layoutY="19.0" onAction="#Back" text="Go Back" textFill="#806044">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/left.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Hyperlink>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

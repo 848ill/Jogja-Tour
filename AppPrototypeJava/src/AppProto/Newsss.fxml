@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppProto.HasilController">
+   <children>
+      <ScrollPane layoutX="272.0" prefHeight="800.0" prefWidth="1010.0">
+         <content>
+            <AnchorPane prefHeight="1473.0" prefWidth="995.0" styleClass="homePage1">
+               <children>
+                  <AnchorPane prefHeight="1553.0" prefWidth="995.0" styleClass="homePage2">
+                     <children>
+                        <AnchorPane prefHeight="541.0" prefWidth="995.0" styleClass="nimg1">
+                           <children>
+                              <AnchorPane prefHeight="541.0" prefWidth="995.0" styleClass="bgImage1">
+                                 <children>
+                                    <Text fill="WHITE" layoutX="46.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Museum Benteng Vredeburg di Yogyakarta Akan Buka Kembali Juni 2024" wrappingWidth="866.8505859375">
+                                       <font>
+                                          <Font name="Arial Bold" size="46.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="46.0" layoutY="495.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diperbarui: 12/7/2024">
+                                       <font>
+                                          <Font name="Arial Italic" size="16.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                        <Text layoutX="55.0" layoutY="581.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Yogyakarta - Salah satu destinasi sejarah paling terkenal di Yogyakarta, Museum Benteng Vredeburg, akan kembali dibuka untuk umum pada bulan Juni 2024 setelah menjalani renovasi dan perbaikan yang intensif selama beberapa bulan terakhir. Kabar ini disambut antusias oleh warga lokal dan para wisatawan yang telah lama menantikan pembukaan kembali museum bersejarah ini." wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="55.0" layoutY="679.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Sejarah Singkat Museum Benteng Vredeburg" wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="17.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="55.0" layoutY="705.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Museum Benteng Vredeburg awalnya dibangun oleh Pemerintah Kolonial Belanda pada tahun 1760 sebagai benteng pertahanan. Dengan arsitektur khas Belanda, benteng ini berfungsi untuk mengawasi kegiatan Keraton Yogyakarta dan menjaga stabilitas keamanan wilayah. Pada tahun 1985, benteng ini dialihfungsikan menjadi museum yang menyimpan berbagai koleksi bersejarah, mulai dari artefak, foto, hingga diorama yang menggambarkan perjuangan bangsa Indonesia." wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="55.0" layoutY="815.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Renovasi dan Perbaikan" wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="17.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="55.0" layoutY="841.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Renovasi Museum Benteng Vredeburg melibatkan perbaikan struktural dan peningkatan fasilitas untuk kenyamanan pengunjung. Beberapa bagian museum yang telah usang diperbaiki untuk menjaga keaslian bangunan dan menambah kenyamanan saat berkeliling. Selain itu, museum ini juga dilengkapi dengan teknologi interaktif modern untuk memberikan pengalaman edukatif yang lebih menarik bagi pengunjung, terutama generasi muda." wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="55.0" layoutY="931.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Sambutan Masyarakat" wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="17.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="55.0" layoutY="959.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Pembukaan kembali Museum Benteng Vredeburg disambut dengan antusias oleh masyarakat Yogyakarta dan para wisatawan. Museum ini tidak hanya menjadi tempat untuk belajar sejarah, tetapi juga sebagai destinasi wisata edukatif yang menarik bagi semua kalangan. Dengan fasilitas yang lebih baik dan pengalaman interaktif yang ditawarkan, museum ini diharapkan dapat meningkatkan minat generasi muda terhadap sejarah dan budaya bangsa." wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="55.0" layoutY="1068.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Kunjungan dan Informasi Tiket" wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="17.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="55.0" layoutY="1103.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Museum Benteng Vredeburg akan dibuka setiap hari mulai pukul 08.00 hingga 16.00 WIB. Harga tiket masuk tetap terjangkau, dengan beberapa kategori diskon tersedia untuk pelajar, mahasiswa, dan kelompok wisata. Untuk informasi lebih lanjut, pengunjung dapat mengunjungi situs resmi museum atau mengikuti akun media sosial resmi Museum Benteng Vredeburg." wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="55.0" layoutY="1199.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Dengan pembukaan kembali Museum Benteng Vredeburg, Yogyakarta sekali lagi menegaskan posisinya sebagai salah satu pusat budaya dan sejarah di Indonesia. Jangan lewatkan kesempatan untuk mengunjungi museum ini dan merasakan perjalanan waktu melalui kekayaan sejarah yang ditawarkan." wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <VBox prefHeight="800.0" prefWidth="272.0" styleClass="sideBar">
+         <children>
+            <AnchorPane prefHeight="55.0" prefWidth="272.0">
+               <children>
+                  <Text fill="WHITE" layoutX="84.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JoTo">
+                     <font>
+                        <Font name="Arial Black" size="20.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="39.0" fitWidth="40.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/LogoJT.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Hyperlink fx:id="linkHome" onAction="#Home" text="Back To Home" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/home.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets left="40.0" top="50.0" />
+               </VBox.margin>
+            </Hyperlink>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,6 +1,5 @@
 package AppProto;
 
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -19,18 +18,28 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 
-
 public class WisataBudayaController {
     @FXML
     private ComboBox<String> locationComboBox;
 
-
     @FXML
     private VBox placeList;
-
     private List<TourismPlace> allPlaces;
 
-    @FXML private Hyperlink linkHome;
+    @FXML
+    private Button viewDetailButton;
+
+    @FXML 
+    private Hyperlink buyTicketButton;
+
+    @FXML
+    private Hyperlink linkHome;
+
+    @FXML
+    private Hyperlink linkBack;
+
+    @FXML 
+    private Hyperlink linkTicketPayment;
 
     OpenScene openScene =  new OpenScene();
 
@@ -84,54 +93,81 @@ public class WisataBudayaController {
     }
 
     private HBox createPlaceBox(TourismPlace place) {
-        HBox placeBox = new HBox(10);
+        HBox placeBox = new HBox(20);
         placeBox.getStyleClass().add("bgColorTempatWisata");
+        placeBox.setPadding(new javafx.geometry.Insets(15));
+        placeBox.setUserData(place);
 
         ImageView imageView = new ImageView(new Image(place.getImageUrl()));
         imageView.setFitHeight(150);
         imageView.setFitWidth(200);
-
+    
         VBox detailsBox = new VBox(5);
         detailsBox.getStyleClass().add("MainColor");
-
+        detailsBox.setAlignment(Pos.TOP_LEFT);
+    
         Label titleLabel = new Label(place.getName());
         titleLabel.getStyleClass().add("JudulTempatWisata");
-
+        titleLabel.setStyle("-fx-font-size: 18px; -fx-font-weight: bold;");
+    
         Label locationLabel = new Label(place.getLocation());
         locationLabel.getStyleClass().add("textAbu");
-
+    
         Label descriptionLabel = new Label(place.getDescription());
         descriptionLabel.getStyleClass().add("DescriptionText");
         descriptionLabel.setWrapText(true);
-
-        Label openTimeLabel = new Label("Buka: " + place.getOpenTime());
-        openTimeLabel.getStyleClass().add("textAbu");
-
-        Label ratingLabel = new Label("Rating: " + place.getRating());
-        ratingLabel.setStyle("-fx-font-style: italic;");
-
-        Button detailButton = new Button("View Details");
-        detailButton.getStyleClass().add("LihatDetailText");
-        detailButton.setOnAction(e -> showDetailView(place));
-
-
-       
-        // Membuat HBox untuk tombol-tombol
-        HBox buttonBox = new HBox(10); // Spacing 10 antara tombol
-        buttonBox.setAlignment(Pos.CENTER_LEFT);
+        descriptionLabel.setStyle("-fx-font-size: 14px;");
     
-        buttonBox.getChildren().addAll(detailButton);
+        Label openTimeLabel = new Label("Open : " + place.getOpenTime());
+        openTimeLabel.getStyleClass().add("textAbu");
+    
+        Label ratingLabel = new Label("Rating : " + place.getRating());
+        ratingLabel.setStyle("-fx-font-style: italic;");
+    
+        VBox buttonBox = new VBox(10);
+        buttonBox.setAlignment(Pos.CENTER_RIGHT);
+    
+        Hyperlink viewDetailButton = new Hyperlink("View Detail");
+        viewDetailButton.getStyleClass().add("ViewDetailButton");;
+        viewDetailButton.setOnAction(e -> showDetailView((TourismPlace) placeBox.getUserData()));
+        viewDetailButton.setStyle("-fx-background-radius : 10;\r\n" + //
+                        "    -fx-padding: 5 10 5 10;\r\n" + //
+                        "    -fx-pref-width: 146px;\r\n" + //
+                        "    -fx-pref-height: 4px;\r\n" + //
+                        "    -fx-background-color:  #4CAF50 ;\r\n" + //
+                        "    -fx-font-family : \"Arial\" ;\r\n" + //
+                        "    -fx-alignment: Center;\r\n" + //
+                        "    -fx-font-size : 10pt ;\r\n" + //
+                        "    -fx-text-fill : white;\r\n" + //
+                        "    -fx-font-weight: bold;");
 
-        detailsBox.getChildren().addAll(titleLabel, locationLabel, descriptionLabel, openTimeLabel, ratingLabel, buttonBox);
+        Hyperlink buyTicketButton = new Hyperlink("Buy Ticket");
+        buyTicketButton.getStyleClass().add("BuyTicketButton");;
+        buyTicketButton.setOnAction(e -> openScene.openScene("TicketWisata", buyTicketButton));
+        buyTicketButton.setStyle("-fx-background-radius : 20;\r\n" + //
+                        "    -fx-padding: 5 10 5 10;\r\n" + //
+                        "    -fx-pref-width: 146px;\r\n" + //
+                        "    -fx-pref-height: 4px;\r\n" + //
+                        "    -fx-background-color:  #4169e1 ;\r\n" + //
+                        "    -fx-font-family : \"Arial\" ;\r\n" + //
+                        "    -fx-font-size : 12pt ;\r\n" + //
+                        "    -fx-alignment: Center;\r\n" + //
+                        "    -fx-text-fill : white;\r\n" + //
+                        "    -fx-font-weight: bold;");
 
-        placeBox.getChildren().addAll(imageView,detailsBox);
-      
+        buttonBox.getChildren().addAll(viewDetailButton, buyTicketButton);
+
+        detailsBox.getChildren().addAll(titleLabel, locationLabel, descriptionLabel, openTimeLabel, ratingLabel);
+
+        HBox.setHgrow(detailsBox, javafx.scene.layout.Priority.ALWAYS);
+
+        placeBox.getChildren().addAll(imageView, detailsBox, buttonBox);
+
         return placeBox;
     }
 
     private List<TourismPlace> getAllTourismPlaces() {
         List<TourismPlace> places = new ArrayList<>();
-        // Tambahkan tempat wisata di sini. Contoh:
         places.add(new TourismPlace("Tugu Yogyakarta", "Kota Yogyakarta", "Landmark ikonik kota Yogyakarta yang menjadi simbol sejarah.", "24 jam", "4.6/5", "Monumen", "AppProto/ImageSRC/tugu_yogyakarta.png"));
         places.add(new TourismPlace("Jalan Malioboro", "Kota Yogyakarta", "Pusat perbelanjaan tradisional dan jantung kota Yogyakarta.", "24 jam", "4.5/5", "Jalan", "AppProto/ImageSRC/jalan_malioboro.jpg"));
         places.add(new TourismPlace("Titik Nol Yogyakarta", "Kota Yogyakarta", "Pusat kota Yogyakarta dengan arsitektur kolonial yang indah.", "24 jam", "4.4/5", "Landmark", "AppProto/ImageSRC/titik_nol.jpeg"));
@@ -146,6 +182,7 @@ public class WisataBudayaController {
         return places;
     }
 
+    // Untuk Menunjukan Detail Tempat Wisata
     private void showDetailView(TourismPlace place) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Detail " + place.getName());
@@ -161,7 +198,23 @@ public class WisataBudayaController {
         alert.showAndWait();
     }
 
-    
+    @FXML
+    private void viewDetailButton() {
+        if (placeList.getChildren().isEmpty()) {
+            return;
+        }
+        HBox selectedPlaceBox = (HBox) placeList.getChildren().stream()
+            .filter(node -> node.getStyleClass().contains("selected"))
+            .findFirst()
+            .orElse(null);
+
+        if (selectedPlaceBox != null) {
+            TourismPlace place = (TourismPlace) selectedPlaceBox.getUserData();
+            showDetailView(place);
+        } else {
+            showNoResultsMessage();
+        }
+    }
 
     @FXML
     public void Home() {
@@ -169,8 +222,24 @@ public class WisataBudayaController {
     }
 
     @FXML
+    public void About() {
+        openScene.openScene("WisataBudaya", linkBack);
+    }
+
+    @FXML
+    public void TicketPayment() {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Price of a ticket");
+        alert.setHeaderText(null);
+        alert.setContentText("Rp15.000,00");
+        alert.showAndWait();
+        openScene.openScene("TicketWisata", buyTicketButton);
+    }
+
+    @FXML
     public void onLocationChanged() {
-        onExploreButtonClicked();
+        String selectedLocation = locationComboBox.getValue();
+        filterAndDisplayPlaces(selectedLocation);
     }
 
     @FXML
@@ -183,5 +252,4 @@ public class WisataBudayaController {
         locationComboBox.setValue("All Locations");;
         onExploreButtonClicked();
     }
-
 }

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppProto.HasilController">
+   <children>
+      <ScrollPane layoutX="272.0" prefHeight="800.0" prefWidth="1010.0">
+         <content>
+            <AnchorPane prefHeight="1473.0" prefWidth="995.0" styleClass="homePage1">
+               <children>
+                  <AnchorPane prefHeight="1553.0" prefWidth="995.0" styleClass="homePage2">
+                     <children>
+                        <AnchorPane prefHeight="541.0" prefWidth="995.0" styleClass="nimg2">
+                           <children>
+                              <AnchorPane prefHeight="541.0" prefWidth="995.0" styleClass="bgImage1">
+                                 <children>
+                                    <Text fill="WHITE" layoutX="46.0" layoutY="403.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5 Rekomendasi Wisata Kuliner Terbaik Yang Dapat Kalian Kunjungi " wrappingWidth="816.8505859375">
+                                       <font>
+                                          <Font name="Arial Bold" size="46.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="46.0" layoutY="495.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diperbarui: 12/7/2024">
+                                       <font>
+                                          <Font name="Arial Italic" size="16.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                        <Text layoutX="46.0" layoutY="575.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Yogyakarta atau yang akrab disebut Jogja, tidak hanya terkenal dengan keindahan alam dan budayanya yang kental, tetapi juga dengan kekayaan kuliner yang menggugah selera. Dari makanan tradisional hingga hidangan modern, Jogja menawarkan berbagai pilihan kuliner yang dapat memanjakan lidah kalian. Berikut adalah lima rekomendasi wisata kuliner terbaik yang wajib kalian kunjungi saat berada di Jogja." wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="712.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Gudeg adalah makanan khas Yogyakarta yang wajib dicoba. Salah satu tempat terbaik untuk menikmati hidangan ini adalah di Gudeg Yu Djum. Dengan cita rasa manis yang khas dan tekstur yang lembut, gudeg di sini selalu menjadi favorit para wisatawan. Ditambah dengan lauk pelengkap seperti ayam kampung, telur, dan sambal krecek, pengalaman makan di Gudeg Yu Djum pasti tidak akan terlupakan." wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="686.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="1. Gudeg Yu Djum">
+                           <font>
+                              <Font name="Arial Bold" size="21.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="841.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="2. Angkringan Lik Man">
+                           <font>
+                              <Font name="Arial Bold" size="21.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="867.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Angkringan adalah salah satu ikon kuliner Jogja yang tidak boleh dilewatkan. Angkringan Lik Man terkenal dengan menu kopi joss-nya, yaitu kopi yang disajikan dengan arang panas. Selain itu, kalian juga bisa menikmati berbagai makanan sederhana namun lezat seperti nasi kucing, sate usus, dan gorengan. Suasana santai dan harga yang terjangkau membuat Angkringan Lik Man menjadi tempat favorit untuk nongkrong di malam hari." wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="1002.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="3. Bakpia Pathok 25">
+                           <font>
+                              <Font name="Arial Bold" size="21.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="1028.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Tidak lengkap rasanya berkunjung ke Jogja tanpa membawa oleh-oleh bakpia. Bakpia Pathok 25 adalah salah satu produsen bakpia yang paling terkenal di Jogja. Dengan berbagai varian rasa seperti kacang hijau, cokelat, dan keju, bakpia ini selalu menjadi buruan para wisatawan. Selain rasanya yang enak, kemasan yang praktis juga menjadikan Bakpia Pathok 25 sebagai oleh-oleh yang sempurna." wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="1158.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="4. Sate Klathak Pak Pong">
+                           <font>
+                              <Font name="Arial Bold" size="21.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="1184.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Jika kalian penggemar sate, Sate Klathak Pak Pong adalah tempat yang harus kalian kunjungi. Berbeda dengan sate pada umumnya, sate klathak hanya menggunakan bumbu garam dan tusukan dari jeruji besi, yang membuat daging lebih empuk dan matang merata. Disajikan dengan kuah gulai yang gurih, sate klathak ini akan memberikan pengalaman kuliner yang unik dan lezat." wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="1305.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="5. House of Raminten">
+                           <font>
+                              <Font name="Arial Bold" size="21.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="1331.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="House of Raminten adalah restoran yang menawarkan pengalaman makan yang unik dengan suasana tradisional Jawa yang kental. Menu yang ditawarkan sangat beragam, mulai dari makanan tradisional seperti nasi kucing dan wedang uwuh, hingga makanan barat. Dengan dekorasi yang khas dan pelayanan yang ramah, House of Raminten menjadi tempat yang ideal untuk menikmati makan malam bersama keluarga atau teman-teman." wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="46.0" layoutY="1439.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textColor" text="Dengan banyaknya pilihan kuliner yang ada, Yogyakarta memang pantas disebut sebagai surga bagi para pecinta kuliner. Jadi, saat kalian berkunjung ke Jogja, pastikan untuk mencoba lima rekomendasi wisata kuliner di atas dan nikmati kelezatan yang ditawarkan." wrappingWidth="885.5234375">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <VBox prefHeight="800.0" prefWidth="272.0" styleClass="sideBar">
+         <children>
+            <AnchorPane prefHeight="55.0" prefWidth="272.0">
+               <children>
+                  <Text fill="WHITE" layoutX="84.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JoTo">
+                     <font>
+                        <Font name="Arial Black" size="20.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="39.0" fitWidth="40.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/LogoJT.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Hyperlink fx:id="linkHome" onAction="#Home" text="Back To Home" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageSRC/home.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets left="40.0" top="50.0" />
+               </VBox.margin>
+            </Hyperlink>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
