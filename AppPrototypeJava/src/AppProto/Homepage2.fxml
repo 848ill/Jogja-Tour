@@ -18,7 +18,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppProto.HomepageController">
    <children>
-      <ScrollPane layoutX="203.0" layoutY="-2.0" prefHeight="803.0" prefWidth="1080.0" vvalue="1.0">
+      <ScrollPane layoutX="203.0" layoutY="-2.0" prefHeight="803.0" prefWidth="1080.0">
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1469.0" prefWidth="1065.0" styleClass="homePage1">
                <children>
@@ -37,11 +37,6 @@
                                     <Font name="Arial" size="18.0" />
                                  </font>
                               </Text>
-                              <Button layoutX="1001.0" layoutY="14.0" mnemonicParsing="false" onAction="#exit" styleClass="closeButton" text="X" textFill="WHITE">
-                                 <font>
-                                    <Font name="System Bold" size="25.0" />
-                                 </font>
-                              </Button>
                            </children>
                         </AnchorPane>
                      </children>
